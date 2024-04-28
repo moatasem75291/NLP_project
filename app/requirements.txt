@@ -1,11 +1,6 @@
 beautifulsoup4
 matplotlib
-transformers
-torch
-torchvision
-torchaudio
 wikipedia
-TensorFlow
 textblob
 wordcloud
 spacy>=3.7.0,<3.8.0
