@@ -12,7 +12,7 @@ def summarize_text(text):
 	    "inputs": text,
         }
     )
-    return output[0]
+    return output
 
 
 
