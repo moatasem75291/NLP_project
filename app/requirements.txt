@@ -1,6 +1,9 @@
 beautifulsoup4
 matplotlib
 transformers
+torch
+torchvision
+torchaudio
 wikipedia
 TensorFlow
 textblob
