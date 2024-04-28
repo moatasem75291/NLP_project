@@ -13,7 +13,7 @@ def summarize_text(text):
 		    'parameters': {'truncation': 'only_first'}
 	    }
     )
-    return output
+    return output[0]["generated_text"]
 
 
 
