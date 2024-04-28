@@ -8,7 +8,7 @@ def main():
     st.title("Wikipedia Text Extractor and Summarizer 📚")
     st.write("----------------------------")
 
-    st.sidebar.header("Customize Your Experience")
+    st.sidebar.header("Customization")
     st.sidebar.write("----------------------")
 
     choice = st.selectbox(
