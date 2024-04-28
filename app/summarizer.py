@@ -8,9 +8,10 @@ def query(payload):
 
 def summarize_text(text):
     output = query(
-        {
-	    "inputs": text,
-        }
+	    {
+		    "inputs": text,
+		    'parameters': {'truncation': 'only_first'}
+	    }
     )
     return output
 
